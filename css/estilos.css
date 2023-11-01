@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Lato:ital,wght@1,300&family=Montserrat:wght@200&family=Roboto:ital,wght@0,100;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.hero{
+    background-image: url("../img/cafe\ 4.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+}
+
+.btn-primary {
+    background-color: rgba(0, 90, 2, 0.719);
+    border: 0;
+}
