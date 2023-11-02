@@ -16,10 +16,14 @@
     height: 100vh;
     width: 100%;
     background-size: cover;
-    background-position: left;
+    background-position: center;
 }
 
 .btn-primary {
     background-color: rgba(0, 90, 2, 0.719);
     border: 0;
+}
+
+@media only screen and (max width: 480px){
+    background-position: center;
 }
