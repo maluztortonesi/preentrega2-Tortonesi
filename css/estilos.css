@@ -4,15 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: font-family: 'Bebas Neue', sans-serif;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;;
+    font-family: fontBebas; 
 }
 
 .hero{
-    background-image: url("../img/cafe\ 4.jpg");
+    background-image: url("../img/cafefondo1.jpg");
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -24,6 +20,8 @@
     border: 0;
 }
 
-@media only screen and (max width: 480px){
-    background-position: center;
+.body{
+    box-sizing: border-box;
 }
+
+@media only screen and (max-width: 480px){}
