@@ -13,3 +13,49 @@
   background-size: cover;
   background-position: center;
 }/*# sourceMappingURL=estilo.css.map */
+
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+.footer__bottom p{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.footer__bottom .icons {
+  display: flex;
+  gap: .5rem;
+}
+
+.footer__bottom .icons i {
+  color: white;
+}
+
+.resolucion{
+  width: 99%;
+  text-align: center;
+}
+
+@media (max-widht: 767px){
+  .desktop{
+      display: none;
+  }
+  .tablet {
+      display: none;
+  }
+}
+
+@media (min-widht: 768px) and (max-width: 990px){
+  .desktop{
+      display: none;
+  }
+  {
+  .movil{
+      display: none;
+  }
+  }
+}
